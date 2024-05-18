@@ -8,7 +8,7 @@ public class GuaranteedLoan implements Loan {
   private static final double DEFAULT_RATE = 3.0;
 
   private static final double MINIMUM_CLIENT_INCOME = 3000.0;
-  private static final double MAXIMUM_CLIENT_INCOME = 3000.0;
+  private static final double MAXIMUM_CLIENT_INCOME = 5000.0;
   private static final int MAXIMUM_AGE = 30;
   private static final String LOCATION = "SP";
 
@@ -16,7 +16,7 @@ public class GuaranteedLoan implements Loan {
   public boolean apply(final Customer customer) {
 
     return customer.income() <= MINIMUM_CLIENT_INCOME
-        && isIncomeBetweenMinimumAndMaximumAndCustomerAgeUnderAndCustomerLocation(customer);
+        || isIncomeBetweenMinimumAndMaximumAndCustomerAgeUnderAndCustomerLocation(customer);
   }
 
   @Override
