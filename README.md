@@ -1,11 +1,15 @@
-# Challenge Loans With Clean Arch
+# Challenge Loans
 
 This project is one of several possible solutions to the challenge created by [backend-br](https://github.com/backend-br/desafios)
 
-## Getting Started
+## 🚀 Tech List
 
-### Java Version
-This project uses `Java 21`
+* Java 21
+* Spring Boot 3
+* JUnit
+* Clean Arch
+
+## Getting Started
 
 ### Run with Docker
 ```
