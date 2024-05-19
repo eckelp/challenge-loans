@@ -3,7 +3,7 @@ package com.eckelp.challenges.loans.gateways.http.json;
 import java.util.Collection;
 
 public record LoanAvailabilityResponseJson(
-    String name,
+    String customer,
     Collection<LoanRateResponseJson> loans
 ) {
 }
