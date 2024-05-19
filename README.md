@@ -2,29 +2,27 @@
 
 This project is one of several possible solutions to the challenge created by [backend-br](https://github.com/backend-br/desafios)
 
-## 🚀 Tech List
+## 💡 Tech List 💡
 
 * Java 21
 * Spring Boot 3
 * JUnit
 * Clean Arch
 
-## Getting Started
-
-### Run with Docker
+## Run with Docker
 ```
 docker build . -t loans-service
 
 docker run loans-service
 ```
 
-### Run with docker-compose
+## Run with docker-compose
 
 ```
 docker-compose up --build 
 ```
 
-### Try out
+## Try out
 
 **[POST]** `{{host}}/customer-loans`
 
@@ -37,3 +35,5 @@ docker-compose up --build
   "location": "SP"
 }
 ```
+
+### Developed by eckelp
